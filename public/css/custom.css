@@ -1,7 +1,6 @@
 /* Layout */
 
 footer {
-	margin: 40px;
 	text-align: center;
 	font-style: italic;
 }
@@ -14,21 +13,83 @@ footer {
 
 .navbar-fixed-top {
 	height: 50px;
-	border-bottom: 1px solid lightgray;
-	background-color: white;
+	border-bottom: 1px solid #1995ad;
+	background-color: #a1d6e2;
+}
+
+ul.nav.navbar-nav.navbar-right li a{
+	color: #1995ad;
+	font-size: 16px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+ul.nav.navbar-nav.navbar-right li a:hover{
+	color: #1995ad;
+}
+
+/* Navbar-brand */
+
+.navbar-brand {
+	color: #1995ad;
+	font-size: 22px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+a:hover.navbar-brand {
+	color: #f1f1f2 !important;
 }
 
 /* Jumbotron */
 
 .jumbotron {
 	margin-top: 25px;
+	border: 1px solid #1995ad;
 	text-align: center;
 }
 
+.jumbotron h1 {
+	margin-bottom: 25px;
+	color: #1995ad;
+}
+
+.jumbotron h2 {
+	color: #1995ad;
+
+}
+
+.jumbotron h2 span {
+	color: black;
+}
+
+.jumbotron p {
+	font-size: 18px;
+}
+
 /* Form */
+
+.form-group label {
+	margin-top: 25px;
+	text-transform: uppercase;
+}
 
 .form-control {
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+/* Table */
+
+.table {
+	width: 50%;
+	margin: 25px auto 0 auto;
+}
+
+.table thead tr th{
+	color: #1995ad;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
 }
