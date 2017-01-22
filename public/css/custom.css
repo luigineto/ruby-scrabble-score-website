@@ -1,0 +1,34 @@
+/* Layout */
+
+footer {
+	margin: 40px;
+	text-align: center;
+	font-style: italic;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+/* Navbar */
+
+.navbar-fixed-top {
+	height: 50px;
+	border-bottom: 1px solid lightgray;
+	background-color: white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	margin-top: 25px;
+	text-align: center;
+}
+
+/* Form */
+
+.form-control {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
